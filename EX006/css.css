@@ -1,0 +1,48 @@
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+h1 {
+    font: 30px Verdana;
+    text-align: center;
+    background-color: rgb(112, 102, 94);
+    border-radius: 10px;
+    color: rgb(29, 9, 139);
+}
+h2 {
+    font: 24px Verdana;
+    text-align: center;
+    color: rgb(8, 96, 227);
+}
+h3{
+    font: 19px Arial;
+    text-align: center;
+    color: rgb(0, 23, 106);
+}
+p{
+    font: 16px Arial;
+    border-radius: 5px;
+    border-top: 5px;
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+div#campo{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: brown;
+    height: 450px;
+    width: 600px;
+    border-radius: 30px;
+}
+input#botao{
+    background-color: rgb(49, 49, 49);
+    border-radius: 6px;
+    color: rgb(255, 255, 255);
+}
+input#input{
+    margin-top: 14px;
+    border-radius: 6px;
+    height: 15px;
+}

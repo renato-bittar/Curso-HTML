@@ -1,0 +1,30 @@
+
+/*
+
+*/
+body{
+    background-color: rgb(174, 236, 215);
+}
+h1 {
+    color: rgb(57, 121, 100);
+}
+h1#principal{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(9, 54, 54);
+    background-size: cover;
+    border-radius: 4px;
+}
+h2 {
+    color: rgb(13, 49, 37);
+}
+.basico{
+    color: rgb(223, 134, 11);
+}
+.avancado{
+    color: rgb(20, 59, 0);
+    font-weight: bold;
+    
+   
+}
