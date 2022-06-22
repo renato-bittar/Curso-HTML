@@ -22,6 +22,10 @@ header {
     border-radius: 0px 0px 15px 15px; 
 }
 
+body{
+    
+}
+
 header > h1 {
     padding-top: 35px;
 }
@@ -40,12 +44,17 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 
+button{
+    padding: 5px;
+}
+
 .valor{
     padding: 20px;
     margin: auto;
     height: 40px;
-    width: 200px;
+    width: 400px;
     background-color: aqua;
+    
 }
 
 .btc{
@@ -91,13 +100,44 @@ padding-bottom: 15px;
     color: #878787;
     font-size: 20px;
     padding-left: 30px;
+    padding-top: 10px;
 }
 
 .outrasmoedas{
-    background-color: aquamarine;
     width: 100vw;
-   display: inline-flex;
-   padding-top: 20px;
-   margin-top: 30px;
-   align-items: center;
+    display: inline-flex;
+    padding-top: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.nova{
+    background-color: #d0cece95;
+    width: 260px;
+    height: 110px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.379);
+    margin: auto;
+    
+}
+
+.titulospequenos{
+    font-family: var(--fonte2);
+    color: #00747C;
+    font-weight: 600;
+    padding: 10px 0px 5px 20px;
+}
+
+.moedaspequenas{
+    font-family: var(--fonte2);
+    color: #878787;
+    padding: 0px 0px 0px 20px;
+    font-size: 35px;
+}
+
+.cotacaopequenas{
+    font-family: var(--fonte2);
+    color: #878787;
+    padding: 10px 0px 0px 25px;
+    font-size: 15px;
 }
