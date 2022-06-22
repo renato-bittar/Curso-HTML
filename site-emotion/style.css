@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    display: inline;
+}
+
+body{
+    max-width: 900px;
+    margin: auto;
+}
+
+main{
+    
+}
+
+.logo{
+    display: inline;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+
+#desenho1{
+    display: inline;
+    width: 450px;
+    padding-top: 0px;
+    position: relative;
+    margin-top: -15px;
+}
+
+#fundovideo{
+    width: 900px;
+    padding-bottom: 0px;
+    margin-bottom: -118px;
+}
+
+.fazemos{
+    background-color: bisque;
+    display: inline;
+    width: 300px;
+}
+
+.comofazemos{
+    background-color: #0089B5;
+    color: white;
+    height: 375px;
+}
+
+.video{
+    display: inline-block;
+    width: 250px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.storytelling{
+    display: inline-block;
+    width: 250px;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.sites{
+    display: inline-block;
+    width: 250px;
+    text-align: justify;
+    padding: 10px;
+    
+}

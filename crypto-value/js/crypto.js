@@ -16,3 +16,7 @@ ws.onmessage = (event) => {
     stockPriceElement.innerText = parseFloat(stockObject.p).toFixed(2);
 }
 
+var data = new FormData();
+data.append("dinheiro", document.getElementById("valor").value);
+
+console.log(data);
