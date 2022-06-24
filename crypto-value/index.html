@@ -19,9 +19,10 @@
                 <p  id="data">12 /09 / 2021</p>
             </div>
             <div class="valor">
-                <form onsubmit="return doForm()">
-                    <input type="text" id="valor" required value="4">
-                    <input type="submit" value="Pegar">
+                <form id="myForm">
+                    <h2>Digite um valor para calcular:</h2>
+                    <input type="number" id="valorform" class="valorform">
+                    <input class="botao" type="submit" value="Calcular" onclick="calcular(); return false">
                 </form>
             </div>
             <div class="btc">
@@ -29,17 +30,14 @@
                 <div class="cardbtc">
                     <p class="valorBtc" id="btcvalue">loading...</p>
                     <p class="usd">usd</p>
-                    <p class="dolarBtc">1 USD = 0,000050 BTC</p>
+                </div>
+                <div >
+                    <p id="dolarBtc">1 USD = 0,000050 BTC</p>
                 </div>
                 
             </div>
             <span class="outrasmoedas">
-                <div class="nova">
-                    <p>Adicionar Outra moeda</p>
-                </div>
-                <div class="nova">
-                    <p>Adicionar Outra moeda</p>
-                </div>
+        
                 <div class="nova">
                     <p class="titulospequenos">ETH</p>
                     <p class="moedaspequenas" id="ethvalue">1.092,48</p>
