@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRIDS</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: #7159c1;
+        }
+
+        .container{
+            display:grid;
+            grid-template-columns: 3fr 1fr ;
+            grid-template-rows: 20vh 70vh 10vh;
+            grid-template-areas: "h  h"
+                                "m  a"
+                                "f  f";
+            
+        }
+
+        
+
+        header{
+            background-color: yellow;
+            
+            /* grid-column: 1/3;  -- opção short para indicar posição no grid! */
+            grid-area: h;
+            
+            
+        }
+
+        main{
+            background-color: blue;
+            
+            /*grid-column-start: 1;
+            grid-column-end: 2;  -- versão longa de indicar posição nas colunas */
+            grid-area: m;
+            
+
+        }
+
+    
+        aside{
+            background-color: green;
+            
+            grid-area: a;
+            
+        }
+
+        footer{
+            background-color: red;
+            
+            grid-area: f;
+        }
+
+      
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+
+        </header>
+        <main class="textoteste">
+            
+        </main>
+        <aside>
+
+        </aside>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
