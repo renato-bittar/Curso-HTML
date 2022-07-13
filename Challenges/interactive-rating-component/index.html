@@ -9,41 +9,63 @@
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
+  <main>
+    <div class="rating" id="rating">
+      <div class="star">
+        <img src="images/icon-star.svg" alt="estrela" class="image">
+      </div>
+      <div class="mainText">
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did your support request. All feedback is appreciated to help us improve our offering!</p>
+      </div>
+      <div class="grades" id="grades">
+        <button class="bGrades" id="bGrades" onclick="grade1()">
+           1 
+        </button>
+        <button class="bGrades" id="bGrades" onclick="grade2()">
+            2
+        </button>
+        <button class="bGrades" id="bGrades" onclick="grade3()">
+            3
+        </button>
+        <button class="bGrades" id="bGrades" onclick="grade4()">
+            4
+        </button>
+        <button class="bGrades" id="bGrades" onclick="grade5()">
+            5
+        </button>
+      </div>
+      <button type="button" class="submit" onclick="submit()">
+        SUBMIT
+      </button>
+    </div>
 
-  <!-- Rating state start -->
+    <!-- Star of Thank you Card -->
 
-  How did we do?
+    <div class="thankyou" id="thankyou">
+      <div class="tksimg">
+        <img src="images/illustration-thank-you.svg" alt="thank you">
+      </div>
+      <div class="selectedRate" id="selectedRate">
+        <p>You selected x out of 5</p>
+      </div>
+      <div class="thankYoucard">
+        <h1>Thank You</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+      </div>
 
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
+      <!-- End of Thank you card -->
 
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
+    </div>
+    <script src="script.js"></script>
+  </main>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://github.com/renato-bittar" target="_blank">Renato Bittar</a>.
+  </footer>
 </body>
 </html>

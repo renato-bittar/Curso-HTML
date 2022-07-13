@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+/* font-family: 'Overpass', sans-serif;  */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    background-color: hsl(220, 15%, 8%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution{
+    color: white;
+}
+
+h1{
+    color: white;
+    margin: 20px 10px;
+}
+
+.mainText{
+    color: hsl(217, 12%, 63%);
+    margin: 5px 4px;
+}
+
+.mainText > p{
+    margin: 20px 10px;
+    line-height: 1.6;
+}
+
+main{
+    margin: 25vh auto 4px;
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, hsl(213, 19%, 18%) ,hsl(216, 12%, 8%));
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.grades{
+    display: flex;
+    text-align: center;
+    color: hsl(216, 12%, 54%);
+    justify-content: space-between;
+    
+}
+
+.bGrades{
+    width: 40px;
+    height: 40px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100px;
+    align-items: center;
+    padding: 12px;
+    margin: 10px 10px;
+    color: hsl(216, 12%, 54%);
+    
+}
+
+.bGrades:hover{
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+
+.bGrades:focus{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.star{
+    width: 40px;
+    height: 40px;
+    background-color: hsl(216, 12%, 8%);
+    border-radius: 100px;
+    align-items: center;
+    padding: 12px;
+    margin: 15px 15px;
+}
+
+img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    width: 350px;
+    height: 45px;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+    font-weight: bolder;
+    border: none;
+    justify-self: center;
+       
+}
+
+.submit{
+    margin: 20px 10px;
+    justify-self: center;
+}
+
+.submit:active{
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+}
+
+footer{
+    margin: 15px auto;
+    text-align: center;
+}
+
+.rating{
+    display: block;
+}
+
+.thankyou{
+    display: none;
+}
+
+.selectedRate{
+    width: fit-content;
+    height: fit-content;
+    margin: 45px auto;
+    border-radius: 30px;
+    text-align: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    padding: 5px 20px;
+}
+
+.selectedRate > p {
+    text-align: center;
+    text-justify: center;
+}
+
+.tksimg > img{
+    width: 40%;
+    margin: 20px auto;
+}
+
+.thankYoucard{
+    margin: 50px auto;
+    text-align: center;   
+}
+
+.thankYoucard > h1{
+    margin: auto;
+    text-align: center;   
+}
+
+.thankYoucard > p{
+    margin: 10px auto;
+    text-align: center;
+    line-height: 1.5;
+    color: hsl(216, 12%, 54%)
+}
